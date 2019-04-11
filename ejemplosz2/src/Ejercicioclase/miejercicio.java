@@ -18,8 +18,8 @@ public class miejercicio {
         int edad;
         String ciudad;
         String pais;
-        float notas1,notas2;
-        float promedio;
+        int notas1;
+        float promedio,notas2;
         Scanner entrada = new Scanner(System.in);
         
         System.out.println("Ingrese sus nombres: ");
@@ -47,6 +47,8 @@ public class miejercicio {
         
         promedio=(notas1+notas2)/2;
    
-        System.out.printf("Sus nombres y apellidos: %s %s \nEdad: %s \n Ciudad: %s \nPais: %s \nNotas %s,%s \nPromedio: %s",nombre,apellido,edad,ciudad,pais,notas1,notas2,promedio);
+        System.out.printf("Sus nombres y apellidos: %s %s \nEdad: %s \n "
+                + "Ciudad: %s \nPais: %s \nNotas %s,%s \nPromedio: %s",nombre,
+                apellido,edad,ciudad,pais,notas1,notas2,promedio);
     }
 }
