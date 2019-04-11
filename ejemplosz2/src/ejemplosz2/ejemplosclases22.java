@@ -32,13 +32,13 @@ public class ejemplosclases22 {
         System.out.println("Ingrese sus Apellidos: ");
         apellido = entrada.nextLine();
         
-        System.out.println("Ingrese su Ciudad de origen: ");
-        ciudad = entrada.nextLine();
-        
         System.out.println("Ingrese sus Edad: ");
         edad = entrada.nextInt();
+        // Limpieza de buffer
+        entrada.nextLine();
         
-        
+        System.out.println("Ingrese su Ciudad de origen: ");
+        ciudad = entrada.nextLine();
         
         System.out.println("Su nombre es: "+nombre+"\n\n\t"+"su apellido es: "
                 +apellido+", edad: "+edad+"\n"+"Ciudad:" +ciudad);
